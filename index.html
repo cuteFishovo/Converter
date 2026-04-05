@@ -93,14 +93,13 @@
             text-align: center;
         }
 
-        /* 百度跳转链接样式 */
-        .baidu-link {
+        .tito-link {
             margin-top: 60px;
             text-align: center;
             cursor: pointer;
             transition: all 0.3s;
         }
-        .baidu-link:hover {
+        .tito-link:hover {
             transform: scale(1.05);
         }
         .main-text {
@@ -170,6 +169,17 @@
             text-align: center;
         }
 
+        .contact-tip {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 15px;
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+        .contact-tip strong {
+            color: #3498db;
+        }
+
         /* 适配移动端 */
         @media (max-width: 768px) {
             body {
@@ -224,6 +234,10 @@
                 <h3>转换完成</h3>
                 <img id="convertedImage" class="preview-img" style="display:block;">
             </div>
+
+            <div class="contact-tip">
+                面向大众，有任何想要的功能或者意见，请联系QQ：<strong>1003294905</strong>
+            </div>
         </div>
 
         <!-- 音频转格式 -->
@@ -255,23 +269,35 @@
             <div class="result-box" id="audioResultBox">
                 <h3>音频转换完成</h3>
             </div>
+
+            <div class="contact-tip">
+                面向大众，有任何想要的功能或者意见，请联系QQ：<strong>1003294905</strong>
+            </div>
         </div>
 
         <!-- 音频解析 -->
         <div id="page3" class="page">
             <h1>音频解析</h1>
-            <div class="baidu-link" onclick="window.open('http://unlock.music.hi.cn/','_blank')">
+            <div class="tito-link" onclick="window.open('http://unlock.music.hi.cn/','_blank')">
                 <div class="main-text">点击前往unlock.music.hi.cn</div>
                 <div class="sub-text">本人不会太多html 暂时不会更好的音频解析 可前往unlock.music.hi.cn</div>
+            </div>
+
+            <div class="contact-tip">
+                面向大众，有任何想要的功能或者意见，请联系QQ：<strong>1003294905</strong>
             </div>
         </div>
 
         <!-- 视频解析 -->
         <div id="page4" class="page">
             <h1>视频解析</h1>
-            <div class="baidu-link" onclick="window.open('https://snapany.com/zh','_blank')">
+            <div class="tito-link" onclick="window.open('https://snapany.com/zh','_blank')">
                 <div class="main-text">点击前往snapany.com</div>
                 <div class="sub-text">本人不会太多html 暂时不会更好的音频解析 可前往snapany.com</div>
+            </div>
+
+            <div class="contact-tip">
+                面向大众，有任何想要的功能或者意见，请联系QQ：<strong>1003294905</strong>
             </div>
         </div>
     </div>
